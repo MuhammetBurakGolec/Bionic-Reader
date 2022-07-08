@@ -7,6 +7,7 @@ try:
     import Char_change
     import getopt
     import sys
+    import text_convert
 
 except ImportError:    
     print("İmport Error")
@@ -16,7 +17,8 @@ def main():
     #url = str(input("Site : "))
     
     url = "https://tr.wikipedia.org/wiki/MOSFET"
-    print(url)
+
+    #print(url)
 
     value = str(get.get_in(url))
 
