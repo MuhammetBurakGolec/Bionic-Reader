@@ -1,15 +1,11 @@
-from openpyxl import NUMPY
+text_matrix = []
 
-try:
-    import numpy as np
-
-except ImportError:
-    print("Import Error --text_conver--")
-
-def __init__matrix(text):
-    text_matrix = []
-    for i in range(len(text)):
+def __init__(text):
+    for i in range(len(text)+1):
         text_matrix.append(0)
+
+def matrix_append(x,num):
+    text_matrix[x] = num
 
 #text_arr = np.array([],ndim=1) # 2 dimension
 
