@@ -1,5 +1,5 @@
 # bin/Python3.9
-# Authour : Muhammet Burak GOLEC
+# Author : Muhammet Burak GOLEC
 
 try:    
     import get
